@@ -4,5 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Demos/XiongMaoPaoKu/Scenes/01-MainMenu.unity
+    guid: b08c5545f40ff9a4585dabf849b138f8
+  - enabled: 1
+    path: Assets/Demos/XiongMaoPaoKu/Scenes/04-Game.unity
+    guid: f777c8da84fec8e4889c6a0f817e6487

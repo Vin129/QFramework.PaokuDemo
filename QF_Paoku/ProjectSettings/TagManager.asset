@@ -3,7 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Block
+  - Item
+  - SmallBlock
+  - BigFence
+  - SmallFence
+  - BeforeTrigger
+  - Road
+  - BeforeGoalTrigger
+  - Goalkeeper
+  - MagnetCollider
+  - BallDoor
+  - Ball
+  - MainPlayer
   layers:
   - Default
   - TransparentFX

@@ -1,0 +1,11 @@
+ManifestFileVersion: 0
+CRC: 2021458305
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: uiatlas_cn_png
+      Dependencies: {}
+    Info_1:
+      Name: uiatlas
+      Dependencies:
+        Dependency_0: uiatlas_cn_png

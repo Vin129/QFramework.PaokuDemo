@@ -34,7 +34,7 @@ namespace QFramework.PaokuDemo
     public static class Tag
     {
         public const string road = "Road";
-        public const string player = "Player";
+        public const string player = "MainPlayer";
         public const string bigFence = "BigFence";
         public const string smallFence = "SmallFence";
         public const string block = "Block";

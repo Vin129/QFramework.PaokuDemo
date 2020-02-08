@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 3025698827
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c631ee89ca79b53c2ec26cfa65ebdd28
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 819f082603b9a0242c38fefc9db4d50d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Demos/XiongMaoPaoKu/UITexture/Atlas/UIAtlas/UIAtlas_CN_58.prefab
+- Assets/Resources/Demos/XiongMaoPaoKu/UITexture/Atlas/UIAtlas/UIAtlas_CN_92.prefab
+- Assets/Resources/Demos/XiongMaoPaoKu/UITexture/Atlas/UIAtlas/UIAtlas_CN_40.prefab
+Dependencies:
+- G:/Vin129P/PaoKuDemo/QF_Paoku/AssetBundles/Windows/uiatlas_cn_png

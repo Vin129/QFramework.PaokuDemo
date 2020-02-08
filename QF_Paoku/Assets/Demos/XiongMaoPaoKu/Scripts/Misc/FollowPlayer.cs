@@ -10,9 +10,10 @@ namespace QFramework.PaokuDemo
         Vector3 m_offset;
         float speed = 20;
 
-        private void Awake()
+        private void Start()
         {
             m_player = GameObject.FindWithTag(Tag.player).transform;
+            Debug.LogError(m_player.name);
             m_offset = transform.position - m_player.position;
         }
 

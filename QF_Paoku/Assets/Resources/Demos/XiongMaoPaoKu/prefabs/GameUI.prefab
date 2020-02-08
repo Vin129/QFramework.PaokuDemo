@@ -105,7 +105,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 224412224811841202}
-  - component: {fileID: 114279849272258526}
+  - component: {fileID: 114767890907302598}
   m_Layer: 5
   m_Name: GameUI
   m_TagString: Untagged
@@ -1794,7 +1794,7 @@ GameObject:
   - component: {fileID: 111983018272029916}
   m_Layer: 5
   m_Name: Model
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2782,10 +2782,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MarkType: 0
-  CustomComponentName: 
+  CustomComponentName: UIBoard
   ComponentGeneratePath: 
   CustomComment: 
-  mComponentName: 
+  mComponentName: UnityEngine.UI.Image
 --- !u!114 &114113118694818452
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3403,42 +3403,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114279849272258526
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1032913093429018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd03af05b779b423587f94c379fe35c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mSubPanelInfos: []
-  UIBoard: {fileID: 114921693633343170}
-  Timer: {fileID: 114376752448854224}
-  TimerText: {fileID: 114264198381577438}
-  coinText: {fileID: 114927107144821976}
-  distanceText: {fileID: 114652432599867082}
-  PauseButton: {fileID: 114189567968960672}
-  UIFinalScore: {fileID: 114829336212279402}
-  distanceCount: {fileID: 114141312116781600}
-  coinCount: {fileID: 114920865349047496}
-  ScoreText: {fileID: 114026577592330552}
-  homeBtn: {fileID: 114480040103998544}
-  continueBtn: {fileID: 114620284955925064}
-  UIDead: {fileID: 114886414681610764}
-  UIDeadcancle: {fileID: 114806977893248752}
-  UIDeadCoinText: {fileID: 114776575428838698}
-  UIDeadbuyButton: {fileID: 114738395073775850}
-  UIPause: {fileID: 114755726040445932}
-  PauseScore: {fileID: 114614377706781558}
-  PauseCoin: {fileID: 114519430367868728}
-  PauseDistance: {fileID: 114164990130804044}
-  PausecontinueBtn: {fileID: 114052639653596256}
-  PausehomeBtn: {fileID: 114902375429385424}
-  UIResume: {fileID: 114106297315272648}
-  resumeImage: {fileID: 114659708265916546}
 --- !u!114 &114281329018507852
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4650,10 +4614,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MarkType: 0
-  CustomComponentName: 
+  CustomComponentName: UIPause
   ComponentGeneratePath: 
   CustomComment: 
-  mComponentName: 
+  mComponentName: UnityEngine.UI.Image
 --- !u!114 &114665309368888572
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5041,6 +5005,42 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114767890907302598
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032913093429018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e05eff0c6dc7af45b9ec2c6291bb260, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mSubPanelInfos: []
+  UIBoard: {fileID: 114921693633343170}
+  Timer: {fileID: 114376752448854224}
+  TimerText: {fileID: 114264198381577438}
+  coinText: {fileID: 114927107144821976}
+  distanceText: {fileID: 114652432599867082}
+  PauseButton: {fileID: 114189567968960672}
+  UIFinalScore: {fileID: 114829336212279402}
+  distanceCount: {fileID: 114141312116781600}
+  coinCount: {fileID: 114920865349047496}
+  ScoreText: {fileID: 114026577592330552}
+  homeBtn: {fileID: 114480040103998544}
+  continueBtn: {fileID: 114620284955925064}
+  UIDead: {fileID: 114886414681610764}
+  UIDeadcancle: {fileID: 114806977893248752}
+  UIDeadCoinText: {fileID: 114776575428838698}
+  UIDeadbuyButton: {fileID: 114738395073775850}
+  UIPause: {fileID: 114755726040445932}
+  PauseScore: {fileID: 114614377706781558}
+  PauseCoin: {fileID: 114519430367868728}
+  PauseDistance: {fileID: 114164990130804044}
+  PausecontinueBtn: {fileID: 114052639653596256}
+  PausehomeBtn: {fileID: 114902375429385424}
+  UIResume: {fileID: 114106297315272648}
+  resumeImage: {fileID: 114659708265916546}
 --- !u!114 &114771480852046154
 MonoBehaviour:
   m_ObjectHideFlags: 1
