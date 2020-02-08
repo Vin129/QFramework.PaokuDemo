@@ -78,15 +78,15 @@ namespace QFramework.PaokuDemo
             UIDead.Hide();
             UIPause.Hide();
             UIResume.Show();
-            resumeImage.sprite = GameResLoader.Allocate().LoadAtlasSprite("Demos/XiongMaoPaoKu/UITexture/Atlas/UIAtlas_CN", "UIAtlas_CN_92");
+            // resumeImage.sprite = GameResLoader.Allocate().LoadAtlasSprite("Demos/XiongMaoPaoKu/UITexture/Atlas/UIAtlas_CN", "UIAtlas_CN_92");
             resumeImage.Sequence()
                        .Delay(0.8f)
                        .Event(delegate {
-                           resumeImage.sprite = GameResLoader.Allocate().LoadAtlasSprite("Demos/XiongMaoPaoKu/UITexture/Atlas/UIAtlas_CN", "UIAtlas_CN_40");
+                        //    resumeImage.sprite = GameResLoader.Allocate().LoadAtlasSprite("Demos/XiongMaoPaoKu/UITexture/Atlas/UIAtlas_CN", "UIAtlas_CN_40");
                        })
                        .Delay(0.8f)
                        .Event(delegate {
-                           resumeImage.sprite = GameResLoader.Allocate().LoadAtlasSprite("Demos/XiongMaoPaoKu/UITexture/Atlas/UIAtlas_CN", "UIAtlas_CN_58");
+                        //    resumeImage.sprite = GameResLoader.Allocate().LoadAtlasSprite("Demos/XiongMaoPaoKu/UITexture/Atlas/UIAtlas_CN", "UIAtlas_CN_58");
                        })
                        .Delay(0.8f)
                        .Event(delegate {
@@ -137,7 +137,7 @@ namespace QFramework.PaokuDemo
 
 		protected override void OnClose()
 		{
-			base.OnClose();
+			// base.OnClose();
             UIManager.Instance.UnRegistEvent<UIEvent>(UIEvent.UpdateCoin, GetEvent);
             UIManager.Instance.UnRegistEvent<UIEvent>(UIEvent.UpdateDistance, GetEvent);
             UIManager.Instance.UnRegistEvent<UIEvent>(UIEvent.ShowDead, GetEvent);

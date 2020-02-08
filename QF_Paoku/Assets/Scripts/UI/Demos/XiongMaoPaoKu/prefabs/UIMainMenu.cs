@@ -48,7 +48,7 @@ namespace QFramework.PaokuDemo
 
         protected override void OnClose()
         {
-            base.OnClose();
+            // base.OnClose();
         }
 
         void ShowLog(string content)
