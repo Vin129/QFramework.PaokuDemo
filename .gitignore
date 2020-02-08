@@ -1,0 +1,5 @@
+QF_Paoku/Temp
+*.csproj
+*.sln
+QF_Paoku/Logs/
+QF_Paoku/Library/
