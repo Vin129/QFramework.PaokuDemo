@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 2021458305
+CRC: 754734952
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -7,5 +7,9 @@ AssetBundleManifest:
       Dependencies: {}
     Info_1:
       Name: uiatlas
+      Dependencies:
+        Dependency_0: uiatlas_cn_png
+    Info_2:
+      Name: gameui_prefab
       Dependencies:
         Dependency_0: uiatlas_cn_png
